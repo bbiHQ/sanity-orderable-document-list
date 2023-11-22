@@ -1,4 +1,4 @@
-# @sanity/orderable-document-list
+# @bbihq/sanity-plugin-orderable-document-list
 
 > This is a **Sanity Studio v3** plugin.
 > For the v2 version, please refer to the [v2-branch](https://github.com/sanity-io/orderable-document-list/tree/studio-v2).
@@ -80,6 +80,8 @@ export default defineConfig({
               params: {
                 lang: 'en_US',
               },
+              createIntent: false, // do not add an option for item creation
+              menuItems: [], // allow an array of `S.menuItem()` to be injected to orderable document list menu
               // pass from the structure callback params above
               S,
               context,
