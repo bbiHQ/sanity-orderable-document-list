@@ -36,13 +36,13 @@ export default defineConfig({
 Run the following command in your studio directory
 
 ```sh
-npm install --save @sanity/orderable-document-list
+npm install --save @bbihq/sanity-plugin-orderable-document-list
 ```
 
 or
 
 ```sh
-yarn add @sanity/orderable-document-list
+yarn add @bbihq/sanity-plugin-orderable-document-list
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ The config parameter requires `type`, `S` and `context`. It also accepts `title`
 ```ts
 import {defineConfig} from 'sanity'
 import {deskTool, StructureBuilder} from 'sanity/desk'
-import {orderableDocumentListDeskItem} from '@sanity/orderable-document-list'
+import {orderableDocumentListDeskItem} from '@bbihq/sanity-plugin-orderable-document-list'
 
 export default defineConfig({
   //...
@@ -114,7 +114,7 @@ You cannot override the `name`, `type` or `initialValue` attributes.
 // sanity.config.js
 import {defineConfig} from "sanity";
 import {deskTool, StructureBuilder} from "sanity/desk";
-import {orderRankField, orderRankOrdering} from '@sanity/orderable-document-list'
+import {orderRankField, orderRankOrdering} from '@bbihq/sanity-plugin-orderable-document-list'
 
 export default defineConfig({
     //...
