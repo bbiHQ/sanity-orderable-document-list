@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/bbihq/sanity-plugin-orderable-document-list/compare/v1.1.0...v1.2.0) (2023-11-22)
+
+### Features
+
+- allow menuItems and create intent to be customized ([5b88a08](https://github.com/bbihq/sanity-plugin-orderable-document-list/commit/5b88a08dc35dc1e15f310d654f3b6a1b45ca2c8b))
+
 ## [1.1.0](https://github.com/sanity-io/orderable-document-list/compare/v1.0.4...v1.1.0) (2023-07-13)
 
 ### Features
